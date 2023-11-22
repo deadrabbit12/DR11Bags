@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dr11bags",
+  "version": "${version}",
+  "name": "DR11Bags",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/user/DR11Bags"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dr11bags/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.drteam.dr11bags.client.DR11BagsClient"
+    ],
+    "main": [
+      "me.drteam.dr11bags.DR11Bags"
+    ]
+  },
+  "mixins": [
+    "dr11bags.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

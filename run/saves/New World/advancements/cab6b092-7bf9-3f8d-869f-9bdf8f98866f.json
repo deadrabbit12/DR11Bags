@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-11-22 16:38:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2023-11-22 16:38:12 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
